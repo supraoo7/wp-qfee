@@ -1,0 +1,36 @@
+.wpQfee-editable .editable-area {
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.wpQfee-editable .editable-area:focus {
+  outline: none;
+}
+
+.wpQfee-editable .editable-area.hover {
+  border: 1px solid #ff0000;
+}
+
+.wpQfee-editable .editable-area.active {
+  border: 1px solid #ff0000;
+}
+
+.wpQfee-edit-btn, .wpQfee-cancel-btn, .wpQfee-save-btn {
+  font-size: 13px;
+  font-family: Arial;
+  z-index: 9999;
+  position: absolute;
+  bottom: -35px;
+}
+
+.wpQfee-edit-btn {
+  right: 0;
+}
+
+.wpQfee-cancel-btn {
+  right: 60px;
+}
+
+.wpQfee-save-btn {
+  right: 0;
+}
